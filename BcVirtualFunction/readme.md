@@ -45,6 +45,7 @@
 
 
 ### 注意事项
-+ 如果只是在类内实现print( )的话会有警告信息
-  > warning:has no out-of-line virtual method definitions; its vtable will be emitted in every translation unit   
++ 如果只是在类内实现print( )的话会有警告信息  
+> warning:has no out-of-line virtual method definitions; its vtable will be emitted in every translation unit   
+ 
   这个警告就是**说需要将实现部分另写出来，不然会增加编译中的某个链接时间（具体不太懂，如有错误请指教，感谢）**，同样如果纯虚函数的写法由于不实现成员函数所以也会报该警告，可以改为虚函数，实现一个无关紧要的功能给虚成员函数
