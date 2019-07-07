@@ -14,4 +14,10 @@
 ### 总结
 ---------------------
 + 纯虚函数声明如下： 
-**virtual void funtion1()=0;** 纯虚函数一定没有定义，纯虚函数用来规范派生类的行为，即接口。**包含纯虚函数的类是抽象类，抽象类不能定义实例，** 但可以声明指向实现该抽象类的具体类的指针或引用。
+**virtual void funtion1()=0;**   纯虚函数一定没有定义，纯虚函数用来规范派生类的行为，即接口。  **包含纯虚函数的类是抽象类，抽象类不能定义实例，** 但可以声明指向实现该抽象类的具体类的指针或引用。
+
++ 虚函数声明如下：virtual ReturnType FunctionName(Parameter) **虚函数必须实现**，如果不实现，编译器将报错，错误提示为：
+
+(```)
+  error LNK****: unresolved external symbol "public: virtual void __thiscall ClassName::virtualFunctionName(void)"
+(```)
