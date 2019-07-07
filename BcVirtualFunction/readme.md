@@ -18,6 +18,6 @@
 
 + 虚函数声明如下：virtual ReturnType FunctionName(Parameter) **虚函数必须实现**，如果不实现，编译器将报错，错误提示为：
 
-(```)
-  error LNK****: unresolved external symbol "public: virtual void __thiscall ClassName::virtualFunctionName(void)"
+(```)　　
+error LNK****: unresolved external symbol "public: virtual void __thiscall ClassName::virtualFunctionName(void)"　　　
 (```)
