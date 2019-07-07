@@ -1,5 +1,7 @@
 >参考：https://www.runoob.com/w3cnote/cpp-virtual-functions.html
 
+>环境：Qt5.9.7　　linux-ubuntu16.04
+
 ### 首先：强调一个概念
 
 定义一个函数为虚函数，不代表函数为不被实现的函数。
